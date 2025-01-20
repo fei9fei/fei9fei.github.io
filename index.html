@@ -73,6 +73,50 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-解决vscode中部署pytorch问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/01/20/%E8%A7%A3%E5%86%B3vscode%E4%B8%AD%E9%83%A8%E7%BD%B2pytorch%E9%97%AE%E9%A2%98/" class="article-date">
+  <time class="dt-published" datetime="2025-01-20T08:39:16.000Z" itemprop="datePublished">2025-01-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2025/01/20/%E8%A7%A3%E5%86%B3vscode%E4%B8%AD%E9%83%A8%E7%BD%B2pytorch%E9%97%AE%E9%A2%98/">~解决vscode中部署pytorch问题~</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>#当我准备在vscode中部署pytorch时，显示无torch模块</p>
+<p>###步骤<br>-文件-首选项-设置-扩展-Python-在settings.jason中编辑在最后输入<br>-“code-runner.executorMap”:  当输入时会有提示，点击提示就会出现如图片那么一大串东西<br>-找到 “python”: “python -u” 这块，将”python.defaultInterpreterPath”内容进行替换，如图所示<br>-保存，重新打开vscode即可<br><img src="/1.png" alt="alt text"><br><img src="/image.png" alt="alt text"><br><img src="/image-1.png" alt="alt text"></p>
+<p>###检验pytorchh是否成功</p>
+<blockquote>
+<p>import torch<br>print(torch.<strong>version</strong>)</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/01/20/%E8%A7%A3%E5%86%B3vscode%E4%B8%AD%E9%83%A8%E7%BD%B2pytorch%E9%97%AE%E9%A2%98/" data-id="cm64u75hg0006ygu19tul8cm0" data-title="~解决vscode中部署pytorch问题~" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-php" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/02/11/php/" class="article-date">
@@ -106,7 +150,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/02/11/php/" data-id="clshgaqga0003c0u198cr245o" data-title="php" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://example.com/2024/02/11/php/" data-id="cm64u75hf0004ygu14xsi4fe3" data-title="php" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -142,14 +186,23 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <h1 id="网站搭建"><a href="#网站搭建" class="headerlink" title="网站搭建"></a>网站搭建</h1><h2 id="需要的编辑软件"><a href="#需要的编辑软件" class="headerlink" title="需要的编辑软件"></a>需要的编辑软件</h2><ul>
+<li>Typora<br>个人建议在国内的网站上面下载，不要去官网，下载慢</li>
+<li>VS code<br>轻量级文档编辑器</li>
+</ul>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="https://img.zcool.cn/community/01ffe656f608d532f875a944926334.jpg@3000w_1l_2o_100sh.jpg"></p>
+<h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><p><a target="_blank" rel="noopener" href="https://code.visualstudio.com/">VS code 下载</a><br>1.打开网址<br>2.下载</p>
+<p><img src="/%7B63A63218-10B6-4DFB-8A22-B4BAF4F0B3FF%7D.png" alt="alt text"><br>右键选择open git bash here<br>hexo new “这里填写名字”<br>接着会在<br><img src="/image-2.png" alt="alt text"><br>这里面出现<br>双击md文件进行编写<br>发布：<br>hexo clean<br>hexo g<br>hexo s 预览<br>hexo d 发布</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/11/12/%E6%9C%80%E5%BF%AB%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-id="clshgaqg70002c0u14ohyam0f" data-title="最快搭建个人博客" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://example.com/2023/11/12/%E6%9C%80%E5%BF%AB%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-id="cm64u75hc0001ygu178az12e7" data-title="最快搭建个人博客" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/" rel="tag">web</a></li></ul>
+
     </footer>
   </div>
   
@@ -178,7 +231,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/11/12/hexo-markdown/" data-id="clshgaqg10001c0u16ps10bg5" data-title="" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://example.com/2023/11/12/hexo-markdown/" data-id="cm64u75hd0002ygu175wcgoiz" data-title="" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -206,7 +259,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/11/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%96%87%E7%AB%A0/" data-id="clshgaqgb0004c0u1548w4t49" data-title="" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://example.com/2023/11/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%96%87%E7%AB%A0/" data-id="cm64u75hf0005ygu11d327lk8" data-title="" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -257,7 +310,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/11/12/hello-world/" data-id="clshgaqfr0000c0u1d21mcndk" data-title="Hello World" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://example.com/2023/11/12/hello-world/" data-id="cm64u75h90000ygu12kfdfep2" data-title="Hello World" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -282,7 +335,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/" rel="tag">php</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/" rel="tag">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/" rel="tag">web</a></li></ul>
     </div>
   </div>
 
@@ -292,7 +345,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/php/" style="font-size: 10px;">php</a>
+      <a href="/tags/php/" style="font-size: 10px;">php</a> <a href="/tags/web/" style="font-size: 10px;">web</a>
     </div>
   </div>
 
@@ -301,7 +354,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">十一月 2023</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">一月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">十一月 2023</a></li></ul>
     </div>
   </div>
 
@@ -312,6 +365,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2025/01/20/%E8%A7%A3%E5%86%B3vscode%E4%B8%AD%E9%83%A8%E7%BD%B2pytorch%E9%97%AE%E9%A2%98/">~解决vscode中部署pytorch问题~</a>
+          </li>
         
           <li>
             <a href="/2024/02/11/php/">php</a>
@@ -329,10 +386,6 @@
             <a href="/2023/11/12/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%96%87%E7%AB%A0/">(no title)</a>
           </li>
         
-          <li>
-            <a href="/2023/11/12/hello-world/">Hello World</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -346,7 +399,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       
-      &copy; 2024 John Doe<br>
+      &copy; 2025 John Doe<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
